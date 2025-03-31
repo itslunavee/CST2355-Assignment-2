@@ -1,0 +1,28 @@
+# ========================================
+# MS Access Files
+# ========================================
+*.laccdb               # Access lock files (NEVER commit these)
+*.accdb.tmp            # Temporary files
+~*.accdb               # Access backups
+
+# ========================================
+# Database Files
+# ========================================
+*.mdb                  # Old Access files
+*.sqlite               # SQLite databases
+*.bak                  # Backup files
+
+# ========================================
+# System/IDE Files
+# ========================================
+.DS_Store              # Mac metadata
+Thumbs.db              # Windows thumbnails
+desktop.ini           # Windows config
+.vscode/               # VS Code settings
+.idea/                 # JetBrains IDE files
+
+# ========================================
+# Logs/Environment
+# ========================================
+*.log
+.env                   # Environment variables (sensitive!)
