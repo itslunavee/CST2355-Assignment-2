@@ -1,0 +1,12 @@
+Follow these instructions to copy my setup on your PC:
+
+1. Open Command Prompt as Admin
+2. Connect as SYSDBA:
+	sqlplus / as sysdba
+3. Create the user and set password:
+	CREATE USER wine_inventory IDENTIFIED BY "YourStrongPassword!123";
+4. Grant Privileges:
+	GRANT CONNECT, RESOURCE TO wine_inventory;
+        GRANT CREATE SESSION, CREATE TABLE, UNLIMITED TABLESPACE TO wine_inventory;	
+	
+5. After that, setup the new connection with this user in Oracle SQL Developer like we did in labs and run the create table and test data scripts. 
