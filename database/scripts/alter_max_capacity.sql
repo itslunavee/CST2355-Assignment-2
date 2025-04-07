@@ -1,0 +1,1 @@
+ALTER TABLE StorageLocations MODIFY MaxCapacity NOT NULL;

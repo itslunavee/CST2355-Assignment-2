@@ -1,0 +1,1 @@
+ALTER TABLE StorageLocations ADD MaxCapacity NUMBER(10) DEFAULT 100;

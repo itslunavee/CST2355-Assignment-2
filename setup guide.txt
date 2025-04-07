@@ -9,4 +9,6 @@ Follow these instructions to copy my setup on your PC:
 	GRANT CONNECT, RESOURCE TO wine_inventory;
         GRANT CREATE SESSION, CREATE TABLE, UNLIMITED TABLESPACE TO wine_inventory;	
 	
-5. After that, setup the new connection with this user in Oracle SQL Developer like we did in labs and run the create table and test data scripts. 
+5. After that, setup the new connection with this user in Oracle SQL Developer like we did in labs and run the create table and add/alter scripts, then finally the test data. 
+
+6. Once that is done you can run the triggers and procedures, spin up the ODBC connection in Access and begin using the forms and reports. 
